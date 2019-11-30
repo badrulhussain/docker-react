@@ -1,3 +1,4 @@
+language: generic
 sudo: required
 service:
   -docker
@@ -6,4 +7,4 @@ service:
     - docker build -t badrul/docker-react -f Dockerfile.dev .
 
   script:
-    - docker run badrul/docker-reat npm run test -- --coverage
+    - docker run -e CI=true badrul/docker-reat npm run test 
