@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          EeEdit <code>src/App.js</code> and save to reload.
+          From Feature Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,7 +20,7 @@ function App() {
         </a>
       </header>
         <p className="App-intro" >
-          Hi there from badrul
+          Hi there from badrul changed on feature branch
         </p>
     </div>
   );
