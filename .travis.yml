@@ -7,4 +7,4 @@ before_install:
  - docker build -t badrul/docker-react -f Dockrefile.dev .
 
 script:
- - docker run -e CI=true badrul/docker-react npm runt test
+ - docker run badrul/docker-reat npm run test -- --coverage
